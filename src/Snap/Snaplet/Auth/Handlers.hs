@@ -354,7 +354,7 @@ getSessionUserId = do
 ------------------------------------------------------------------------------
 -- | Check password for a given user.
 --
--- Returns "Nothing" if check is successful and an "IncorrectPassword" error
+-- Returns "Nothing" if check is successful and an "AuthFailure" error
 -- otherwise
 --
 authenticatePassword :: AuthUser        -- ^ Looked up from the back-end
